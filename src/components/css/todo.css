@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+}
+
+.task-done {
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    font-style: italic;
+    font-weight: light;
+    color: gray;
+}
+.task-done:hover {
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    font-style: italic;
+    font-weight: medium;
+    color: black;
+}
+
+.todoElement {
+    display: flex;
+    flex-direction: row;
+}
